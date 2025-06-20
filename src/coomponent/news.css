@@ -1,0 +1,109 @@
+.navbar {
+    background: linear-gradient(to right, #b83333, #00a3f1);
+    margin-bottom: -12px;
+
+}
+
+.catagoryBtn{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 12px; */
+   
+    margin: 13px 78px 19px 72px;
+    padding-block-start: 5px;
+}
+.bg{
+  
+    margin: 12px 79px 12px 83px;
+    /* padding: 20px; */
+    padding: 21px 153px 25px 143px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Glass effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-color: aqua;
+}
+#btn-primary{
+    width: 20%;
+    height: 40%;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+#btn-primary:hover{
+    color:aqua;
+    background-color: rgba(79, 37, 233, 0.2);
+    border-color: aqua;
+}
+.color{
+    background: linear-gradient(
+        to right,
+        #000C40,#607D8B
+      );
+      padding-top: 20px;
+}
+
+.navbar-brand{
+    color:aqua;
+    font-size: 28px;
+    font-weight: 100px;
+}
+.navbar-brand:hover{
+color: rgb(0, 172, 172);
+
+}
+.btn{
+    background-color: #007bff;
+}
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.form-control{
+    
+    border-radius: 20px;
+    font-size: 18px;
+
+
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 20px;
+  
+}
+.nav-link1{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 20px;
+}
